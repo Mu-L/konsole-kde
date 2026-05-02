@@ -659,7 +659,10 @@ void Vt102Emulation::osc_end(const uint cc)
     // do not.
     if (tokenBuffer[0] == XTERM_EXTENDED::URL_LINK) {
         // printf '\e]8;;https://example.com\e\\This is a link\e]8;;\e\\\n'
-        Q_EMIT toggleUrlExtractionRequest();
+        if (auto extractor = _currentScreen->urlExtractor()) {
+            // OSC 8 is per-screen; do not broadcast to all screens.
+            extractor->toggleUrlInput();
+        }
     }
 
     processSessionAttributeRequest(tokenBufferPos, cc);
