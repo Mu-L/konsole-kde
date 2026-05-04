@@ -149,6 +149,11 @@ void Vt102Emulation::clearHistory()
     Emulation::clearHistory();
 }
 
+void Vt102Emulation::setKittyKeyboardEnabled(bool enabled)
+{
+    _kittyKeyboardEnabled = enabled;
+}
+
 void Vt102Emulation::reset(bool softReset, bool preservePrompt)
 {
     Q_EMIT updateDroppedLines(_currentScreen->getLines());
@@ -3214,7 +3219,7 @@ void Vt102Emulation::sendKeyEvent(QKeyEvent *event)
 
     // Kitty keyboard protocol — must be checked before the KeyPress-only gate
     // because flag 2 (report event types) needs release/repeat events too.
-    if (currentKittyKeyboardFlags() != 0 && !isReadOnly) {
+    if (_kittyKeyboardEnabled && currentKittyKeyboardFlags() != 0 && !isReadOnly) {
         if (handleKittyKeyEvent(event)) {
             return;
         }

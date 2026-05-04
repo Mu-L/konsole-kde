@@ -255,6 +255,8 @@ private Q_SLOTS:
     void badgeTextOnlyChanged(bool textOnly);
     void badgeTransparencyChanged(int transparency);
 
+    void toggleKittyKeyboard(bool);
+
 private:
     Q_DISABLE_COPY(EditProfileDialog)
 

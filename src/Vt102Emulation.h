@@ -94,6 +94,7 @@ public Q_SLOTS:
     void sendExactMouseEvent(int buttons, int x, int y, int eventType) override;
     void focusChanged(bool focused) override;
     void clearHistory() override;
+    void setKittyKeyboardEnabled(bool enabled);
 
 protected:
     // reimplemented from Emulation
@@ -250,6 +251,7 @@ private:
     };
     XkbData _xkbData;
 #endif
+    bool _kittyKeyboardEnabled = true;
     bool _win32InputModeAvailable = true;
     bool _isRightCtrlPressed = false;
     bool _isRightAltPressed = false;

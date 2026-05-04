@@ -1648,6 +1648,15 @@ void Session::setFlowControlEnabled(bool enabled)
 
     Q_EMIT flowControlEnabledChanged(enabled);
 }
+
+void Session::setKittyKeyboardEnabled(bool enabled)
+{
+    auto *vt102 = qobject_cast<Vt102Emulation *>(_emulation);
+    if (vt102) {
+        vt102->setKittyKeyboardEnabled(enabled);
+    }
+}
+
 bool Session::flowControlEnabled() const
 {
     if (_shellProcess != nullptr) {

@@ -466,6 +466,11 @@ public:
         BadgeTextOnly,
         /** (int) Badge transparency level (0-255) */
         BadgeTransparency,
+        /** (bool) Whether to allow applications to use the Kitty keyboard protocol
+         * for enhanced keyboard input. The protocol is opt-in by applications,
+         * so enabling this only makes the feature available.
+         */
+        KittyKeyboardEnabled,
     };
 
     Q_ENUM(Property)

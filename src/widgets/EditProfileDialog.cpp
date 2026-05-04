@@ -2097,6 +2097,8 @@ void EditProfileDialog::setupAdvancedPage(const Profile::Ptr &profile)
     connect(_advancedUi->enableBlinkingTextButton, &QPushButton::toggled, this, &EditProfileDialog::toggleBlinkingText);
     _advancedUi->enableFlowControlButton->setChecked(profile->property<bool>(Profile::FlowControlEnabled));
     connect(_advancedUi->enableFlowControlButton, &QPushButton::toggled, this, &EditProfileDialog::toggleFlowControl);
+    _advancedUi->enableKittyKeyboardButton->setChecked(profile->property<bool>(Profile::KittyKeyboardEnabled));
+    connect(_advancedUi->enableKittyKeyboardButton, &QPushButton::toggled, this, &EditProfileDialog::toggleKittyKeyboard);
     _appearanceUi->enableBlinkingCursorButton->setChecked(profile->property<bool>(Profile::BlinkingCursorEnabled));
     connect(_appearanceUi->enableBlinkingCursorButton, &QPushButton::toggled, this, &EditProfileDialog::toggleBlinkingCursor);
     _advancedUi->enableReverseUrlHints->setChecked(profile->property<bool>(Profile::ReverseUrlHints));
@@ -2311,6 +2313,11 @@ void EditProfileDialog::toggleBlinkingText(bool enable)
 void EditProfileDialog::toggleFlowControl(bool enable)
 {
     updateTempProfileProperty(Profile::FlowControlEnabled, enable);
+}
+
+void EditProfileDialog::toggleKittyKeyboard(bool enable)
+{
+    updateTempProfileProperty(Profile::KittyKeyboardEnabled, enable);
 }
 
 void EditProfileDialog::setAutoSaveInterval(int newVal)
