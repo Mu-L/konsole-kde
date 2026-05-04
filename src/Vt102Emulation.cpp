@@ -561,25 +561,6 @@ void Vt102Emulation::csi_dispatch(const uint cc)
     if (_ignore || (params.hasSubParams && cc != 'm' && cc != 'u')) // Be conservative for now
         return;
 
-    // Kitty keyboard protocol sequences — all use final char 'u' with a prefix
-    // Note: bare CSI u (no prefix) is restore cursor (RCP) handled by old dispatch below
-    if (cc == 'u' && tokenBufferPos != 0) {
-        if (tokenBuffer[0] == '?') {
-            // CSI ? u — query current flags
-            handleKittyKeyboardQuery();
-        } else if (tokenBuffer[0] == '>') {
-            // CSI > flags u — push flags onto stack
-            handleKittyKeyboardPush(params.value[0]);
-        } else if (tokenBuffer[0] == '<') {
-            // CSI < number u — pop entries from stack
-            handleKittyKeyboardPop(params.value[0] ? params.value[0] : 1);
-        } else if (tokenBuffer[0] == '=') {
-            // CSI = flags ; mode u — set flags with mode semantics
-            handleKittyKeyboardSet(params.value[0], params.value[1] ? params.value[1] : 1);
-        }
-        return;
-    }
-
     if ((tokenBufferPos == 0 || (tokenBuffer[0] != '?' && tokenBuffer[0] != '!' && tokenBuffer[0] != '=' && tokenBuffer[0] != '>')) && cc < 256
         && (charClass[cc] & CPN) == CPN && _nIntermediate == 0) {
         processToken(token_csi_pn(cc), params.value[0], params.value[1]);
@@ -601,11 +582,14 @@ void Vt102Emulation::csi_dispatch(const uint cc)
             if (tokenBufferPos != 0 && tokenBuffer[0] == '?') {
                 processToken(token_csi_pr(cc, params.value[i]), i, 0);
             } else if (tokenBufferPos != 0 && tokenBuffer[0] == '<') {
-                processToken(token_csi_pl(cc), 0, 0);
+                processToken(token_csi_pl(cc), params.value[0], params.value[1]);
+                break;
             } else if (tokenBufferPos != 0 && tokenBuffer[0] == '=') {
-                processToken(token_csi_pq(cc), 0, 0);
+                processToken(token_csi_pq(cc), params.value[0], params.value[1]);
+                break;
             } else if (tokenBufferPos != 0 && tokenBuffer[0] == '>') {
-                processToken(token_csi_pg(cc), 0, 0);
+                processToken(token_csi_pg(cc), params.value[0], params.value[1]);
+                break;
             } else if (cc == 'm' && !params.sub[i].count && params.count - i >= 4 && (params.value[i] == 38 || params.value[i] == 48 || params.value[i] == 58)
                        && params.value[i + 1] == 2) {
                 // ESC[ ... 48;2;<red>;<green>;<blue> ... m -or- ESC[ ... 38;2;<red>;<green>;<blue> ... m
@@ -2390,6 +2374,12 @@ void Vt102Emulation::processToken(int token, int p, int q)
     case token_csi_pq('c'      ) :  reportTertiaryAttributes(          ); break; //VT420
     case token_csi_pg('c'      ) :  reportSecondaryAttributes(          ); break; //VT100
     case token_csi_pg('q'      ) :  reportVersion(          ); break;
+
+    // Kitty keyboard protocol — final char 'u' with prefix
+    case token_csi_pr('u',   0 ) :  handleKittyKeyboardQuery(                          ); break;
+    case token_csi_pg('u'      ) :  handleKittyKeyboardPush(p                          ); break;
+    case token_csi_pl('u'      ) :  handleKittyKeyboardPop(p ? p : 1                   ); break;
+    case token_csi_pq('u'      ) :  handleKittyKeyboardSet(p, q ? q : 1                ); break;
 
     //FIXME: when changing between vt52 and ansi mode evtl do some resetting.
     case token_vt52('A'      ) : _currentScreen->cursorUp             (         1); break; //VT52
