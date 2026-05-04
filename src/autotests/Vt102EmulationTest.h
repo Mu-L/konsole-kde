@@ -34,6 +34,16 @@ private Q_SLOTS:
 
     void testBufferedUpdates();
 
+    void testKittyKeyboardPushPopQuery();
+    void testKittyKeyboardSet();
+    void testKittyKeyboardReset();
+    void testKittyKeyboardDisambiguate();
+    void testKittyKeyboardEventTypes();
+    void testKittyKeyboardReportAllKeys();
+    void testKittyKeyboardLegacyKeys();
+    void testKittyKeyboardCtrlLetters();
+    void testKittyKeyboardTextKeys();
+
 private:
     static void sendAndCompare(TestEmulation *em, const char *input, size_t inputLen, const QString &expectedPrint, const QByteArray &expectedSent);
 };

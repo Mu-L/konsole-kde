@@ -185,6 +185,7 @@ set(konsoleprivate_SRCS ${windowadaptors_SRCS}
                         ViewManager.cpp
                         ViewProperties.cpp
                         Vt102Emulation.cpp
+                        KittyKeyMap.cpp
                         WindowSystemInfo.cpp
                         WinKeys.h
                         ZModemDialog.cpp

@@ -362,10 +362,26 @@ private:
     bool m_SixelScrolling = true;
     QSize m_actualSize; // For efficiency reasons, we keep the image in memory larger than what the end result is
 
-    // Kitty
+    // Kitty graphics
     QHash<int, QPixmap> _graphicsImages;
     // For kitty graphics protocol - image cache
     int getFreeGraphicsImageId();
+
+    // Kitty keyboard protocol
+    // Per-screen flag stacks (main=0, alternate=1)
+    QVector<int> _kittyKeyboardFlagsStack[2];
+
+    int currentKittyKeyboardFlags() const;
+    int currentScreenIndex() const;
+
+    // Incoming sequence handlers
+    void handleKittyKeyboardQuery();
+    void handleKittyKeyboardPush(int flags);
+    void handleKittyKeyboardPop(int count);
+    void handleKittyKeyboardSet(int flags, int mode);
+
+    // Key event handler — returns true if handled, false to fall through to legacy
+    bool handleKittyKeyEvent(QKeyEvent *event);
 
     QMediaPlayer *player;
 };
