@@ -1956,11 +1956,10 @@ msgid " [Light]"
 msgstr ""
 
 #: profile/ProfileModel.cpp:94
-#, fuzzy, kde-format
-#| msgid "Darken"
+#, kde-format
 msgctxt "@label:textbox added to profile name when used for dark system theme"
 msgid " [Dark]"
-msgstr "变暗"
+msgstr ""
 
 #: profile/ProfileModel.cpp:110
 #, kde-format
@@ -3102,31 +3101,27 @@ msgstr "设置为默认(&S)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, setLightProfileButton)
 #: settings/ProfileSettings.ui:103
-#, fuzzy, kde-format
-#| msgid "Set the selected profile as the default for new terminal sessions"
+#, kde-format
 msgid "Set the selected profile as the light theme profile"
-msgstr "设置选中的配置方案为新终端会话的默认值"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, setLightProfileButton)
 #: settings/ProfileSettings.ui:106
-#, fuzzy, kde-format
-#| msgid "&Set as Default"
+#, kde-format
 msgid "&Set as Light"
-msgstr "设置为默认(&S)"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, setDarkProfileButton)
 #: settings/ProfileSettings.ui:116
-#, fuzzy, kde-format
-#| msgid "Set the selected profile as the default for new terminal sessions"
+#, kde-format
 msgid "Set the selected profile as the dark theme profile"
-msgstr "设置选中的配置方案为新终端会话的默认值"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, setDarkProfileButton)
 #: settings/ProfileSettings.ui:119
-#, fuzzy, kde-format
-#| msgid "&Set as Default"
+#, kde-format
 msgid "&Set as Dark"
-msgstr "设置为默认(&S)"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, appearanceTab)
 #: settings/TabBarSettings.ui:39
@@ -4393,10 +4388,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, wordModeCoding)
 #: widgets/EditProfileAppearancePage.ui:938
-#, fuzzy, kde-format
-#| msgid "Word characters:"
+#, kde-format
 msgid "Coding ligatures characters"
-msgstr "单词字符："
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, wordModeBrahmic)
 #: widgets/EditProfileAppearancePage.ui:951
@@ -4417,12 +4411,14 @@ msgid ""
 "Apply hinting to glyphs when rendering, which may improve the legibility of "
 "certain fonts with some displays"
 msgstr ""
+"渲染字体时为字形应用字体轮廓微调，这可能会提高某些字体在某些显示器上的可读"
+"性。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, fontHinting)
 #: widgets/EditProfileAppearancePage.ui:970
 #, kde-format
 msgid "Font hinting"
-msgstr ""
+msgstr "字体轮廓微调"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: widgets/EditProfileAppearancePage.ui:983
@@ -5281,10 +5277,9 @@ msgstr "识别为文件、链接或邮件的文本可以直接通过鼠标点击
 
 #. i18n: ectx: property (text), widget (QCheckBox, openLinksByDirectClickButton)
 #: widgets/EditProfileMousePage.ui:338
-#, fuzzy, kde-format
-#| msgid "Open files/links by direct click"
+#, kde-format
 msgid "Open underlined files/links by direct click"
-msgstr "直接点击打开文件/链接"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, allowLinkEscapeSequenceButton)
 #: widgets/EditProfileMousePage.ui:349
