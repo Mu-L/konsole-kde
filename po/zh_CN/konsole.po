@@ -1953,13 +1953,13 @@ msgstr " [默认]"
 #, kde-format
 msgctxt "@label:textbox added to profile name when used for light system theme"
 msgid " [Light]"
-msgstr ""
+msgstr " [浅色]"
 
 #: profile/ProfileModel.cpp:94
 #, kde-format
 msgctxt "@label:textbox added to profile name when used for dark system theme"
 msgid " [Dark]"
-msgstr ""
+msgstr " [深色]"
 
 #: profile/ProfileModel.cpp:110
 #, kde-format
@@ -2632,7 +2632,7 @@ msgstr "在任务栏中显示进度"
 #: settings/GeneralSettings.ui:112
 #, kde-format
 msgid "Automatically switch profile based on system theme"
-msgstr ""
+msgstr "基于系统主题自动切换配置方案"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: settings/GeneralSettings.ui:119
@@ -2986,19 +2986,19 @@ msgstr "回滚历史文件保存到此文件夹"
 #: settings/konsole.kcfg:238
 #, kde-format
 msgid "Sync profile with system theme"
-msgstr ""
+msgstr "配置方案与系统主题同步切换"
 
 #. i18n: ectx: label, entry (LightThemeProfile), group (LightDarkTheme)
 #: settings/konsole.kcfg:242
 #, kde-format
 msgid "Profile to use for light system theme"
-msgstr ""
+msgstr "用于浅色系统主题的配置方案"
 
 #. i18n: ectx: label, entry (DarkThemeProfile), group (LightDarkTheme)
 #: settings/konsole.kcfg:246
 #, kde-format
 msgid "Profile to use for dark system theme"
-msgstr ""
+msgstr "用于深色系统主题的配置方案"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableMemoryMonitoring)
 #: settings/MemorySettings.ui:17
@@ -3103,25 +3103,25 @@ msgstr "设置为默认(&S)"
 #: settings/ProfileSettings.ui:103
 #, kde-format
 msgid "Set the selected profile as the light theme profile"
-msgstr ""
+msgstr "将选中的配置方案设置为浅色主题配置方案"
 
 #. i18n: ectx: property (text), widget (QPushButton, setLightProfileButton)
 #: settings/ProfileSettings.ui:106
 #, kde-format
 msgid "&Set as Light"
-msgstr ""
+msgstr "设置为浅色配置方案(&S)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, setDarkProfileButton)
 #: settings/ProfileSettings.ui:116
 #, kde-format
 msgid "Set the selected profile as the dark theme profile"
-msgstr ""
+msgstr "将选中的配置方案设置为深色主题配置方案"
 
 #. i18n: ectx: property (text), widget (QPushButton, setDarkProfileButton)
 #: settings/ProfileSettings.ui:119
 #, kde-format
 msgid "&Set as Dark"
-msgstr ""
+msgstr "设置为深色配置方案(&S)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, appearanceTab)
 #: settings/TabBarSettings.ui:39
@@ -4384,13 +4384,13 @@ msgstr "ASCII 字符"
 msgid ""
 "Render words made of characters that usually appear in coding ligatures "
 "together."
-msgstr ""
+msgstr "对通常出现在编程连字中的字符组合进行连字渲染。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, wordModeCoding)
 #: widgets/EditProfileAppearancePage.ui:938
 #, kde-format
 msgid "Coding ligatures characters"
-msgstr ""
+msgstr "编程连字字符"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, wordModeBrahmic)
 #: widgets/EditProfileAppearancePage.ui:951
@@ -5279,7 +5279,7 @@ msgstr "识别为文件、链接或邮件的文本可以直接通过鼠标点击
 #: widgets/EditProfileMousePage.ui:338
 #, kde-format
 msgid "Open underlined files/links by direct click"
-msgstr ""
+msgstr "直接点击打开下划线文件/链接"
 
 #. i18n: ectx: property (text), widget (QCheckBox, allowLinkEscapeSequenceButton)
 #: widgets/EditProfileMousePage.ui:349
