@@ -9,6 +9,7 @@
 
 // Qt
 #include <QAction>
+#include <QColor>
 #include <QHash>
 #include <QObject>
 #include <QPointer>
@@ -450,6 +451,7 @@ private Q_SLOTS:
     void profileChanged(const QExplicitlySharedDataPointer<Profile> &profile);
 
     void updateViewsForSession(Session *session);
+    void handleSessionContainerContextChanged(const ContainerInfo &container);
 
     // moves active view to the left
     void moveActiveViewLeft();
@@ -518,6 +520,8 @@ private:
 
     void registerTerminal(TerminalDisplay *terminal);
     void unregisterTerminal(TerminalDisplay *terminal);
+    void updateAutoContainerTabColor(Session *session);
+    static QColor colorForContainerKey(const QString &containerKey);
 
 private:
     QPointer<TabbedViewContainer> _viewContainer;
