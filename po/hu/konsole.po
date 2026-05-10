@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.2\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-01 00:47+0000\n"
+"POT-Creation-Date: 2026-05-10 00:47+0000\n"
 "PO-Revision-Date: 2025-11-10 21:13+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -2196,8 +2196,8 @@ msgstr "Üresjárat - „%1” („%2” munkamenet)"
 
 #: session/Session.cpp:818 session/Session.cpp:2326
 #: session/SessionController.cpp:381 session/SessionController.cpp:1927
-#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1260
-#: Vt102Emulation.cpp:1515
+#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1263
+#: Vt102Emulation.cpp:1518
 #, kde-format
 msgid "Show session"
 msgstr "Munkamenet megjelenítése"
@@ -3895,7 +3895,7 @@ msgctxt "@title:window"
 msgid "Load Tab Layout"
 msgstr "Lapelrendezés betöltése"
 
-#: Vt102Emulation.cpp:3302
+#: Vt102Emulation.cpp:3305
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "

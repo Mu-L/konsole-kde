@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-01 00:47+0000\n"
+"POT-Creation-Date: 2026-05-10 00:47+0000\n"
 "PO-Revision-Date: 2019-09-29 12:43+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -2359,8 +2359,8 @@ msgstr "Хомӯшӣ дар сессия '%1'"
 
 #: session/Session.cpp:818 session/Session.cpp:2326
 #: session/SessionController.cpp:381 session/SessionController.cpp:1927
-#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1260
-#: Vt102Emulation.cpp:1515
+#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1263
+#: Vt102Emulation.cpp:1518
 #, fuzzy, kde-format
 #| msgid "New Session"
 msgid "Show session"
@@ -4156,7 +4156,7 @@ msgctxt "@title:window"
 msgid "Load Tab Layout"
 msgstr ""
 
-#: Vt102Emulation.cpp:3302
+#: Vt102Emulation.cpp:3305
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "

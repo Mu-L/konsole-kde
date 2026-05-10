@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-01 00:47+0000\n"
+"POT-Creation-Date: 2026-05-10 00:47+0000\n"
 "PO-Revision-Date: 2026-05-07 12:30+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -2183,8 +2183,8 @@ msgstr "سكوت في '%1' (الجلسة '%2')"
 
 #: session/Session.cpp:818 session/Session.cpp:2326
 #: session/SessionController.cpp:381 session/SessionController.cpp:1927
-#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1260
-#: Vt102Emulation.cpp:1515
+#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1263
+#: Vt102Emulation.cpp:1518
 #, kde-format
 msgid "Show session"
 msgstr "اعرض الجلسة"
@@ -3861,7 +3861,7 @@ msgctxt "@title:window"
 msgid "Load Tab Layout"
 msgstr "حمّل تخطيط الألسن"
 
-#: Vt102Emulation.cpp:3302
+#: Vt102Emulation.cpp:3305
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "

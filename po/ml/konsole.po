@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-01 00:47+0000\n"
+"POT-Creation-Date: 2026-05-10 00:47+0000\n"
 "PO-Revision-Date: 2020-02-05 14:49+0000\n"
 "Last-Translator: Subin Siby <subins2000@gmail.com>\n"
 "Language-Team: SMC <smc.org.in>\n"
@@ -2203,8 +2203,8 @@ msgstr "'%1' സെഷനില്‍ നിശബ്ദത"
 
 #: session/Session.cpp:818 session/Session.cpp:2326
 #: session/SessionController.cpp:381 session/SessionController.cpp:1927
-#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1260
-#: Vt102Emulation.cpp:1515
+#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1263
+#: Vt102Emulation.cpp:1518
 #, fuzzy, kde-format
 msgid "Show session"
 msgstr "കണ്‍സോള്‍"
@@ -3890,7 +3890,7 @@ msgctxt "@title:window"
 msgid "Load Tab Layout"
 msgstr ""
 
-#: Vt102Emulation.cpp:3302
+#: Vt102Emulation.cpp:3305
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
