@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-10 00:47+0000\n"
+"POT-Creation-Date: 2026-05-11 00:47+0000\n"
 "PO-Revision-Date: 2024-08-04 17:18+0700\n"
 "Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
 "Language-Team: Interlingue <>\n"
@@ -670,7 +670,7 @@ msgid ""
 "Container support is not available when Konsole is running inside Flatpak."
 msgstr ""
 
-#: containers/DistroboxDetector.cpp:73
+#: containers/DistroboxDetector.cpp:124
 #, kde-format
 msgid "Distrobox"
 msgstr ""
@@ -687,7 +687,7 @@ msgstr ""
 msgid " [default]"
 msgstr " [predefinit]"
 
-#: containers/ToolboxDetector.cpp:30
+#: containers/ToolboxDetector.cpp:89
 #, kde-format
 msgid "Toolbox"
 msgstr ""
@@ -1192,66 +1192,66 @@ msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "Mersí a mult altris.\n"
 
-#: MainWindow.cpp:393
+#: MainWindow.cpp:433
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "&Nov carte"
 
-#: MainWindow.cpp:403
+#: MainWindow.cpp:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "&Clonar li carte"
 
-#: MainWindow.cpp:410
+#: MainWindow.cpp:450
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "Nov &fenestre"
 
-#: MainWindow.cpp:417
+#: MainWindow.cpp:457
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "Cluder li fenestre"
 
-#: MainWindow.cpp:422
+#: MainWindow.cpp:462
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "&Marca-págines"
 
-#: MainWindow.cpp:449
+#: MainWindow.cpp:489
 #, kde-format
 msgid "&Window Color Scheme"
 msgstr "Schema de colores del &fenestre"
 
-#: MainWindow.cpp:461
+#: MainWindow.cpp:501
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "Gerentie de profiles..."
 
-#: MainWindow.cpp:467
+#: MainWindow.cpp:507
 #, kde-format
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr "Activar li menú"
 
-#: MainWindow.cpp:473
+#: MainWindow.cpp:513
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Tab Layout..."
 msgstr "&Configurar o renominar li carte..."
 
-#: MainWindow.cpp:482
+#: MainWindow.cpp:522
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Load Tab Layout..."
 msgstr "&Configurar o renominar li carte..."
 
-#: MainWindow.cpp:829 MainWindow.cpp:846
+#: MainWindow.cpp:874 MainWindow.cpp:891
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "There is a process running in this window. Do you still want to quit?"
@@ -1260,61 +1260,61 @@ msgid_plural ""
 msgstr[0] "Hay %1 apertet terminales in ti fenestre. Surtir sin egard?"
 msgstr[1] "Hay %1 apertet terminales in ti fenestre. Surtir sin egard?"
 
-#: MainWindow.cpp:835 MainWindow.cpp:852 MainWindow.cpp:866
+#: MainWindow.cpp:880 MainWindow.cpp:897 MainWindow.cpp:911
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "Confirmar clusion"
 
-#: MainWindow.cpp:836 MainWindow.cpp:853 MainWindow.cpp:867
+#: MainWindow.cpp:881 MainWindow.cpp:898 MainWindow.cpp:912
 #, kde-format
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Cluder li &fenestre"
 
-#: MainWindow.cpp:854 MainWindow.cpp:868
+#: MainWindow.cpp:899 MainWindow.cpp:913
 #, kde-format
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "Cluder li ac&tual carte"
 
-#: MainWindow.cpp:863
+#: MainWindow.cpp:908
 #, kde-format
 msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr "Hay %1 apertet terminales in ti fenestre. Surtir sin egard?"
 
-#: MainWindow.cpp:1003 Part.cpp:317
+#: MainWindow.cpp:1062 Part.cpp:317
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "Profiles"
 
-#: MainWindow.cpp:1021
+#: MainWindow.cpp:1080
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "General"
 
-#: MainWindow.cpp:1033
+#: MainWindow.cpp:1092
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Memory"
 msgstr "Memorie"
 
-#: MainWindow.cpp:1039
+#: MainWindow.cpp:1098
 #, fuzzy, kde-format
 msgctxt "@title Preferences page name"
 msgid "Tab Bar / Splitters"
 msgstr "Cluder li carte"
 
-#: MainWindow.cpp:1044
+#: MainWindow.cpp:1103
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"
 msgstr "Temporari files"
 
-#: MainWindow.cpp:1049
+#: MainWindow.cpp:1108
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Thumbnails"
@@ -1883,7 +1883,7 @@ msgstr "Por &printation (nigri textu sin funde)"
 msgid "&Scale output"
 msgstr "Production"
 
-#: profile/Profile.cpp:284
+#: profile/Profile.cpp:285
 #, fuzzy, kde-format
 msgctxt "Name of the built-in profile"
 msgid "Built-in"
@@ -2135,10 +2135,10 @@ msgstr "Comande e li argumentes: %c"
 msgid "Silence in '%1' (Session '%2')"
 msgstr "Ínactivitá in «%1» (Session «%2»)"
 
-#: session/Session.cpp:818 session/Session.cpp:2326
+#: session/Session.cpp:818 session/Session.cpp:2345
 #: session/SessionController.cpp:381 session/SessionController.cpp:1927
-#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1263
-#: Vt102Emulation.cpp:1518
+#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1280
+#: Vt102Emulation.cpp:1535
 #, kde-format
 msgid "Show session"
 msgstr "Monstrar li session"
@@ -2159,17 +2159,17 @@ msgstr "Cluder li programma"
 msgid "Program '%1' exited with status %2."
 msgstr "Nómine de programma: %n"
 
-#: session/Session.cpp:1701
+#: session/Session.cpp:1713
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Progresse de ZModem"
 
-#: session/Session.cpp:2325
+#: session/Session.cpp:2344
 #, kde-format
 msgid "Activity in '%1' (Session '%2')"
 msgstr "Activitá in «%1» (Session «%2»)"
 
-#: session/Session.cpp:2596
+#: session/Session.cpp:2615
 #, kde-format
 msgid "Security sensitive DBus API is disabled in the settings."
 msgstr ""
@@ -3541,31 +3541,31 @@ msgstr "Actual fólder (long): %D"
 msgid "&Paste Location"
 msgstr "Coll&ar li localisation"
 
-#: ViewManager.cpp:124
+#: ViewManager.cpp:125
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:131
+#: ViewManager.cpp:132
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "Fender li vise verticalmen"
 
-#: ViewManager.cpp:139
+#: ViewManager.cpp:140
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "Fender li vise horisontalmen"
 
-#: ViewManager.cpp:147
+#: ViewManager.cpp:148
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Automatically"
 msgstr "Fender li vise automaticmen"
 
-#: ViewManager.cpp:157
+#: ViewManager.cpp:158
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Split View Left/Right"
@@ -3573,7 +3573,7 @@ msgctxt "@action:inmenu"
 msgid "Split View Left/Right from next tab"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:165
+#: ViewManager.cpp:166
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Split View Top/Bottom"
@@ -3581,7 +3581,7 @@ msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom from next tab"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:173
+#: ViewManager.cpp:174
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Split View Automatically"
@@ -3589,209 +3589,209 @@ msgctxt "@action:inmenu"
 msgid "Split View Automatically from next tab"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:183
+#: ViewManager.cpp:184
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Load a new tab with layout 2x2 terminals"
 msgstr "Ne successat cargar li schema <resource>%1</resource>."
 
-#: ViewManager.cpp:192
+#: ViewManager.cpp:193
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Load a new tab with layout 2x1 terminals"
 msgstr "Ne successat cargar li schema <resource>%1</resource>."
 
-#: ViewManager.cpp:201
+#: ViewManager.cpp:202
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Load a new tab with layout 1x2 terminals"
 msgstr "Ne successat cargar li schema <resource>%1</resource>."
 
-#: ViewManager.cpp:209
+#: ViewManager.cpp:210
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:217
+#: ViewManager.cpp:218
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:227
+#: ViewManager.cpp:228
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Detach Current &View"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:239
+#: ViewManager.cpp:240
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Detach Current &Tab"
 msgstr "S&eparar li actual carte"
 
-#: ViewManager.cpp:244
+#: ViewManager.cpp:245
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "Sequent carte"
 
-#: ViewManager.cpp:252
+#: ViewManager.cpp:253
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "Precedent carte"
 
-#: ViewManager.cpp:260
+#: ViewManager.cpp:261
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Above Terminal"
 msgstr "Emulator de terminal"
 
-#: ViewManager.cpp:267
+#: ViewManager.cpp:268
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Below Terminal"
 msgstr "Emulator de terminal"
 
-#: ViewManager.cpp:274
+#: ViewManager.cpp:275
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Left Terminal"
 msgstr "Levul"
 
-#: ViewManager.cpp:280
+#: ViewManager.cpp:281
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Right Terminal"
 msgstr "Emulator de terminal"
 
-#: ViewManager.cpp:286
+#: ViewManager.cpp:287
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Next Terminal"
 msgstr "Levul"
 
-#: ViewManager.cpp:292
+#: ViewManager.cpp:293
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Previous Terminal"
 msgstr "Emulator de terminal"
 
-#: ViewManager.cpp:298
+#: ViewManager.cpp:299
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "Precedent carte"
 
-#: ViewManager.cpp:303
+#: ViewManager.cpp:304
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs"
 msgstr "Cartes"
 
-#: ViewManager.cpp:308
+#: ViewManager.cpp:309
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle Between Two Tabs"
 msgstr "Cartes"
 
-#: ViewManager.cpp:313
+#: ViewManager.cpp:314
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs (Reverse)"
 msgstr "Cartes"
 
-#: ViewManager.cpp:318
+#: ViewManager.cpp:319
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle maximize current view"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:319
+#: ViewManager.cpp:320
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle maximize current view"
-msgstr "Fender li vise"
-
-#: ViewManager.cpp:327
-#, fuzzy, kde-format
-msgctxt "@action Shortcut entry"
-msgid "Toggle zoom-maximize current view"
 msgstr "Fender li vise"
 
 #: ViewManager.cpp:328
 #, fuzzy, kde-format
+msgctxt "@action Shortcut entry"
+msgid "Toggle zoom-maximize current view"
+msgstr "Fender li vise"
+
+#: ViewManager.cpp:329
+#, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle zoom-maximize current view"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:336
+#: ViewManager.cpp:337
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the right"
 msgstr "Fender li vise verticalmen"
 
-#: ViewManager.cpp:343
+#: ViewManager.cpp:344
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the left"
 msgstr "Levul"
 
-#: ViewManager.cpp:350
+#: ViewManager.cpp:351
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Setup semantic integration (bash)"
 msgstr "Configurar integration de  semantica (bash)"
 
-#: ViewManager.cpp:356
+#: ViewManager.cpp:357
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle semantic hints display"
 msgstr "Configurar integration de  semantica (bash)"
 
-#: ViewManager.cpp:362
+#: ViewManager.cpp:363
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle line numbers display"
 msgstr "Monstrar un vertical linea in columne:"
 
-#: ViewManager.cpp:369
+#: ViewManager.cpp:370
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Equal size to all views"
 msgstr "Dimension: %1 x %2"
 
-#: ViewManager.cpp:379
+#: ViewManager.cpp:380
 #, fuzzy, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "Precedent carte"
 
-#: ViewManager.cpp:602
+#: ViewManager.cpp:603
 #, fuzzy, kde-format
 msgid "Semantic hints "
 msgstr "Configurar integration de  semantica (bash)"
 
-#: ViewManager.cpp:618
+#: ViewManager.cpp:619
 #, kde-format
 msgid "Line numbers "
 msgstr "Numerós de lineas"
 
-#: ViewManager.cpp:1239
+#: ViewManager.cpp:1283
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Save Tab Layout"
 msgstr "&Configurar o renominar li carte..."
 
-#: ViewManager.cpp:1241 ViewManager.cpp:1362
+#: ViewManager.cpp:1285 ViewManager.cpp:1406
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox"
 msgid "Konsole View Layout (*.json)"
 msgstr "Fender li vise"
 
-#: ViewManager.cpp:1257
+#: ViewManager.cpp:1301
 #, fuzzy, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -3799,7 +3799,7 @@ msgid ""
 "%1"
 msgstr "<html><head/><body><p>Arangeament del complex textu</p></body></html>"
 
-#: ViewManager.cpp:1349
+#: ViewManager.cpp:1393
 #, fuzzy, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -3807,13 +3807,13 @@ msgid ""
 "%1"
 msgstr "<html><head/><body><p>Arangeament del complex textu</p></body></html>"
 
-#: ViewManager.cpp:1360
+#: ViewManager.cpp:1404
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Load Tab Layout"
 msgstr "&Configurar o renominar li carte..."
 
-#: Vt102Emulation.cpp:3305
+#: Vt102Emulation.cpp:3336
 #, fuzzy, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
@@ -3897,53 +3897,67 @@ msgstr "Ctrl"
 msgid "Flow control"
 msgstr "Collar &sin caracteres de control"
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableKittyKeyboardButton)
+#: widgets/EditProfileAdvancedPage.ui:212
+#, kde-format
+msgid ""
+"Allow terminal programs to use the Kitty keyboard protocol for enhanced "
+"keyboard input"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableKittyKeyboardButton)
+#: widgets/EditProfileAdvancedPage.ui:215
+#, kde-format
+msgid "Kitty keyboard protocol"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: widgets/EditProfileAdvancedPage.ui:222
+#: widgets/EditProfileAdvancedPage.ui:238
 #, fuzzy, kde-format
 msgid "&Default character encoding:"
 msgstr "Predefinit"
 
 #. i18n: ectx: property (text), widget (QLabel, peekPrimaryLabel)
-#: widgets/EditProfileAdvancedPage.ui:242
+#: widgets/EditProfileAdvancedPage.ui:258
 #, fuzzy, kde-format
 msgid "Shortcut for peeking the primary screen:"
 msgstr "Rapid-taste"
 
 #. i18n: ectx: property (text), widget (QLabel, autoSaveIntervalLabel)
-#: widgets/EditProfileAdvancedPage.ui:255
+#: widgets/EditProfileAdvancedPage.ui:271
 #, fuzzy, kde-format
 msgid "Set interval between autosaves:"
 msgstr "Assignar co&dification"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, autoSaveIntervalWidget)
-#: widgets/EditProfileAdvancedPage.ui:262
+#: widgets/EditProfileAdvancedPage.ui:278
 #, fuzzy, kde-format
 msgid " ms"
 msgstr "MS Windows 9x"
 
 #. i18n: ectx: property (text), widget (QLabel, label_linenums)
-#: widgets/EditProfileAdvancedPage.ui:275
+#: widgets/EditProfileAdvancedPage.ui:291
 #, fuzzy, kde-format
 #| msgid "Line numbers "
 msgid "Line Numbers:"
 msgstr "Numerós de lineas"
 
 #. i18n: ectx: property (text), widget (QRadioButton, lineNumsNever)
-#: widgets/EditProfileAdvancedPage.ui:285
+#: widgets/EditProfileAdvancedPage.ui:301
 #, kde-format
 msgctxt "Never"
 msgid "&Never"
 msgstr "&Nequande"
 
 #. i18n: ectx: property (text), widget (QRadioButton, lineNumsURL)
-#: widgets/EditProfileAdvancedPage.ui:295
+#: widgets/EditProfileAdvancedPage.ui:311
 #, fuzzy, kde-format
 msgctxt "When showing URL hints"
 msgid "When &URL hints show"
 msgstr "Monstrar li buton «Nov carte»"
 
 #. i18n: ectx: property (text), widget (QRadioButton, lineNumsAlways)
-#: widgets/EditProfileAdvancedPage.ui:305
+#: widgets/EditProfileAdvancedPage.ui:321
 #, fuzzy, kde-format
 #| msgctxt "Always"
 #| msgid "Always"
@@ -5872,13 +5886,13 @@ msgctxt "@info:tooltip"
 msgid "Restore terminal"
 msgstr "Restituer li terminal"
 
-#: widgets/ViewContainer.cpp:60
+#: widgets/ViewContainer.cpp:86
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Aperter un nov carte"
 
-#: widgets/ViewContainer.cpp:65
+#: widgets/ViewContainer.cpp:91
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "&Detach Tab"
@@ -5886,29 +5900,39 @@ msgctxt "@info:tooltip"
 msgid "Search Tabs"
 msgstr "S&eparar li carte"
 
-#: widgets/ViewContainer.cpp:70
+#: widgets/ViewContainer.cpp:96
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close this tab"
 msgstr "Cluder ti carte"
 
-#: widgets/ViewContainer.cpp:106
+#: widgets/ViewContainer.cpp:132
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "S&eparar li carte"
 
-#: widgets/ViewContainer.cpp:112
+#: widgets/ViewContainer.cpp:138
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Configure or Rename Tab..."
 msgstr "&Configurar o renominar li carte..."
 
-#: widgets/ViewContainer.cpp:117
+#: widgets/ViewContainer.cpp:143
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Cluder li carte"
+
+#: widgets/ViewContainer.cpp:968 widgets/ViewContainer.cpp:977
+#, fuzzy, kde-format
+msgid "Container"
+msgstr "&Interrupter li tache"
+
+#: widgets/ViewContainer.cpp:987
+#, kde-format
+msgid "%1: %2"
+msgstr ""
 
 #, fuzzy
 #~ msgid ""

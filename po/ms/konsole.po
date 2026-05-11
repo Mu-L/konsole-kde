@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-10 00:47+0000\n"
+"POT-Creation-Date: 2026-05-11 00:47+0000\n"
 "PO-Revision-Date: 2006-05-07 16:35+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
@@ -737,7 +737,7 @@ msgid ""
 "Container support is not available when Konsole is running inside Flatpak."
 msgstr ""
 
-#: containers/DistroboxDetector.cpp:73
+#: containers/DistroboxDetector.cpp:124
 #, kde-format
 msgid "Distrobox"
 msgstr ""
@@ -752,7 +752,7 @@ msgstr ""
 msgid " [default]"
 msgstr "Piawai Konsol"
 
-#: containers/ToolboxDetector.cpp:30
+#: containers/ToolboxDetector.cpp:89
 #, kde-format
 msgid "Toolbox"
 msgstr ""
@@ -1270,74 +1270,74 @@ msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr ""
 
-#: MainWindow.cpp:393
+#: MainWindow.cpp:433
 #, fuzzy, kde-format
 #| msgid "Close the current session"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "Tutup sesi semasa"
 
-#: MainWindow.cpp:403
+#: MainWindow.cpp:443
 #, fuzzy, kde-format
 #| msgid "Close the current session"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "Tutup sesi semasa"
 
-#: MainWindow.cpp:410
+#: MainWindow.cpp:450
 #, fuzzy, kde-format
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "&Tetingkap Baru"
 
-#: MainWindow.cpp:417
+#: MainWindow.cpp:457
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:422
+#: MainWindow.cpp:462
 #, fuzzy, kde-format
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "Cengkerang pada Tanda Laman"
 
-#: MainWindow.cpp:449
+#: MainWindow.cpp:489
 #, fuzzy, kde-format
 #| msgid "New Color Scheme"
 msgid "&Window Color Scheme"
 msgstr "Skema Warna Baru"
 
-#: MainWindow.cpp:461
+#: MainWindow.cpp:501
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "Sim&pan &Profil Sesi"
 
-#: MainWindow.cpp:467
+#: MainWindow.cpp:507
 #, fuzzy, kde-format
 #| msgid "Activate Menu"
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr "Aktifkan Menu"
 
-#: MainWindow.cpp:473
+#: MainWindow.cpp:513
 #, fuzzy, kde-format
 #| msgid "&Move Session Left"
 msgctxt "@action:inmenu"
 msgid "Save Tab Layout..."
 msgstr "Pinda&h Sesi Kiri"
 
-#: MainWindow.cpp:482
+#: MainWindow.cpp:522
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Load Tab Layout..."
 msgstr ""
 
-#: MainWindow.cpp:829 MainWindow.cpp:846
+#: MainWindow.cpp:874 MainWindow.cpp:891
 #, kde-format
 msgctxt "@info"
 msgid "There is a process running in this window. Do you still want to quit?"
@@ -1346,65 +1346,65 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: MainWindow.cpp:835 MainWindow.cpp:852 MainWindow.cpp:866
+#: MainWindow.cpp:880 MainWindow.cpp:897 MainWindow.cpp:911
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr ""
 
-#: MainWindow.cpp:836 MainWindow.cpp:853 MainWindow.cpp:867
+#: MainWindow.cpp:881 MainWindow.cpp:898 MainWindow.cpp:912
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:854 MainWindow.cpp:868
+#: MainWindow.cpp:899 MainWindow.cpp:913
 #, fuzzy, kde-format
 #| msgid "Close the current session"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "Tutup sesi semasa"
 
-#: MainWindow.cpp:863
+#: MainWindow.cpp:908
 #, kde-format
 msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:1003 Part.cpp:317
+#: MainWindow.cpp:1062 Part.cpp:317
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "Sim&pan &Profil Sesi"
 
-#: MainWindow.cpp:1021
+#: MainWindow.cpp:1080
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr ""
 
-#: MainWindow.cpp:1033
+#: MainWindow.cpp:1092
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Memory"
 msgstr ""
 
-#: MainWindow.cpp:1039
+#: MainWindow.cpp:1098
 #, fuzzy, kde-format
 #| msgid "Tab &Options"
 msgctxt "@title Preferences page name"
 msgid "Tab Bar / Splitters"
 msgstr "&Opsyen Tab"
 
-#: MainWindow.cpp:1044
+#: MainWindow.cpp:1103
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"
 msgstr ""
 
-#: MainWindow.cpp:1049
+#: MainWindow.cpp:1108
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Thumbnails"
@@ -1987,7 +1987,7 @@ msgstr "Mod &mesra pencetak (teks hitam, tiada latar belakang)"
 msgid "&Scale output"
 msgstr ""
 
-#: profile/Profile.cpp:284
+#: profile/Profile.cpp:285
 #, kde-format
 msgctxt "Name of the built-in profile"
 msgid "Built-in"
@@ -2255,10 +2255,10 @@ msgstr ""
 msgid "Silence in '%1' (Session '%2')"
 msgstr "Senyap dalam sesi '%1'"
 
-#: session/Session.cpp:818 session/Session.cpp:2326
+#: session/Session.cpp:818 session/Session.cpp:2345
 #: session/SessionController.cpp:381 session/SessionController.cpp:1927
-#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1263
-#: Vt102Emulation.cpp:1518
+#: terminalDisplay/TerminalBell.cpp:44 Vt102Emulation.cpp:1280
+#: Vt102Emulation.cpp:1535
 #, fuzzy, kde-format
 #| msgid "Session"
 msgid "Show session"
@@ -2283,18 +2283,18 @@ msgstr "Sesi '%1' keluar tanpa dijangka."
 msgid "Program '%1' exited with status %2."
 msgstr "Sesi '%1' keluar dengan status %2"
 
-#: session/Session.cpp:1701
+#: session/Session.cpp:1713
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Kemajuan ZModem"
 
-#: session/Session.cpp:2325
+#: session/Session.cpp:2344
 #, fuzzy, kde-format
 #| msgid "Activity in session '%1'"
 msgid "Activity in '%1' (Session '%2')"
 msgstr "Aktiviti dalam sesi '%1'"
 
-#: session/Session.cpp:2596
+#: session/Session.cpp:2615
 #, kde-format
 msgid "Security sensitive DBus API is disabled in the settings."
 msgstr ""
@@ -3718,274 +3718,274 @@ msgstr "Ubah direktori kerja kepada 'dir'"
 msgid "&Paste Location"
 msgstr "Tepek Pilihan"
 
-#: ViewManager.cpp:124
+#: ViewManager.cpp:125
 #, fuzzy, kde-format
 #| msgid "Shrink Font"
 msgctxt "@action:inmenu"
 msgid "Split View"
 msgstr "Kecilkan Fon"
 
-#: ViewManager.cpp:131
+#: ViewManager.cpp:132
 #, fuzzy, kde-format
 #| msgid "Shrink Font"
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "Kecilkan Fon"
 
-#: ViewManager.cpp:139
+#: ViewManager.cpp:140
 #, fuzzy, kde-format
 #| msgid "Shrink Font"
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "Kecilkan Fon"
 
-#: ViewManager.cpp:147
+#: ViewManager.cpp:148
 #, fuzzy, kde-format
 #| msgid "Shrink Font"
 msgctxt "@action:inmenu"
 msgid "Split View Automatically"
 msgstr "Kecilkan Fon"
 
-#: ViewManager.cpp:157
+#: ViewManager.cpp:158
 #, fuzzy, kde-format
 #| msgid "Shrink Font"
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right from next tab"
 msgstr "Kecilkan Fon"
 
-#: ViewManager.cpp:165
+#: ViewManager.cpp:166
 #, fuzzy, kde-format
 #| msgid "Shrink Font"
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom from next tab"
 msgstr "Kecilkan Fon"
 
-#: ViewManager.cpp:173
+#: ViewManager.cpp:174
 #, fuzzy, kde-format
 #| msgid "Shrink Font"
 msgctxt "@action:inmenu"
 msgid "Split View Automatically from next tab"
 msgstr "Kecilkan Fon"
 
-#: ViewManager.cpp:183
+#: ViewManager.cpp:184
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Load a new tab with layout 2x2 terminals"
 msgstr ""
 
-#: ViewManager.cpp:192
+#: ViewManager.cpp:193
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Load a new tab with layout 2x1 terminals"
 msgstr ""
 
-#: ViewManager.cpp:201
+#: ViewManager.cpp:202
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Load a new tab with layout 1x2 terminals"
 msgstr ""
 
-#: ViewManager.cpp:209
+#: ViewManager.cpp:210
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr ""
 
-#: ViewManager.cpp:217
+#: ViewManager.cpp:218
 #, fuzzy, kde-format
 #| msgid "Shrink Font"
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "Kecilkan Fon"
 
-#: ViewManager.cpp:227
+#: ViewManager.cpp:228
 #, fuzzy, kde-format
 #| msgid "Close the current session"
 msgctxt "@action:inmenu"
 msgid "Detach Current &View"
 msgstr "Tutup sesi semasa"
 
-#: ViewManager.cpp:239
+#: ViewManager.cpp:240
 #, fuzzy, kde-format
 #| msgid "Close the current session"
 msgctxt "@action:inmenu"
 msgid "Detach Current &Tab"
 msgstr "Tutup sesi semasa"
 
-#: ViewManager.cpp:244
+#: ViewManager.cpp:245
 #, fuzzy, kde-format
 #| msgid "Close the current session"
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "Tutup sesi semasa"
 
-#: ViewManager.cpp:252
+#: ViewManager.cpp:253
 #, fuzzy, kde-format
 #| msgid "Find Pre&vious"
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "Cari Sebe&lumnya"
 
-#: ViewManager.cpp:260
+#: ViewManager.cpp:261
 #, fuzzy, kde-format
 #| msgid "&Close Terminal Emulator"
 msgctxt "@action Shortcut entry"
 msgid "Focus Above Terminal"
 msgstr "&Tutup Pelagak Terminal"
 
-#: ViewManager.cpp:267
+#: ViewManager.cpp:268
 #, fuzzy, kde-format
 #| msgid "&Close Terminal Emulator"
 msgctxt "@action Shortcut entry"
 msgid "Focus Below Terminal"
 msgstr "&Tutup Pelagak Terminal"
 
-#: ViewManager.cpp:274
+#: ViewManager.cpp:275
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Left Terminal"
 msgstr ""
 
-#: ViewManager.cpp:280
+#: ViewManager.cpp:281
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Right Terminal"
 msgstr ""
 
-#: ViewManager.cpp:286
+#: ViewManager.cpp:287
 #, fuzzy, kde-format
 #| msgid "&Close Terminal Emulator"
 msgctxt "@action Shortcut entry"
 msgid "Focus Next Terminal"
 msgstr "&Tutup Pelagak Terminal"
 
-#: ViewManager.cpp:292
+#: ViewManager.cpp:293
 #, fuzzy, kde-format
 #| msgid "&Close Terminal Emulator"
 msgctxt "@action Shortcut entry"
 msgid "Focus Previous Terminal"
 msgstr "&Tutup Pelagak Terminal"
 
-#: ViewManager.cpp:298
+#: ViewManager.cpp:299
 #, fuzzy, kde-format
 #| msgid "Switch to Tab"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "Tukar ke Tab"
 
-#: ViewManager.cpp:303
+#: ViewManager.cpp:304
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs"
 msgstr ""
 
-#: ViewManager.cpp:308
+#: ViewManager.cpp:309
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle Between Two Tabs"
 msgstr ""
 
-#: ViewManager.cpp:313
+#: ViewManager.cpp:314
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs (Reverse)"
 msgstr ""
 
-#: ViewManager.cpp:318
+#: ViewManager.cpp:319
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle maximize current view"
 msgstr ""
 
-#: ViewManager.cpp:319
+#: ViewManager.cpp:320
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle maximize current view"
-msgstr ""
-
-#: ViewManager.cpp:327
-#, kde-format
-msgctxt "@action Shortcut entry"
-msgid "Toggle zoom-maximize current view"
 msgstr ""
 
 #: ViewManager.cpp:328
 #, kde-format
+msgctxt "@action Shortcut entry"
+msgid "Toggle zoom-maximize current view"
+msgstr ""
+
+#: ViewManager.cpp:329
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle zoom-maximize current view"
 msgstr ""
 
-#: ViewManager.cpp:336
+#: ViewManager.cpp:337
 #, fuzzy, kde-format
 #| msgid "M&ove Session Right"
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the right"
 msgstr "Pin&dah Sesi Kanan"
 
-#: ViewManager.cpp:343
+#: ViewManager.cpp:344
 #, fuzzy, kde-format
 #| msgid "&Move Session Left"
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the left"
 msgstr "Pinda&h Sesi Kiri"
 
-#: ViewManager.cpp:350
+#: ViewManager.cpp:351
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Setup semantic integration (bash)"
 msgstr ""
 
-#: ViewManager.cpp:356
+#: ViewManager.cpp:357
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle semantic hints display"
 msgstr ""
 
-#: ViewManager.cpp:362
+#: ViewManager.cpp:363
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle line numbers display"
 msgstr ""
 
-#: ViewManager.cpp:369
+#: ViewManager.cpp:370
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Equal size to all views"
 msgstr ""
 
-#: ViewManager.cpp:379
+#: ViewManager.cpp:380
 #, fuzzy, kde-format
 #| msgid "Switch to Tab"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "Tukar ke Tab"
 
-#: ViewManager.cpp:602
+#: ViewManager.cpp:603
 #, fuzzy, kde-format
 #| msgid "Word Connectors"
 msgid "Semantic hints "
 msgstr "Penyambung Perkataan"
 
-#: ViewManager.cpp:618
+#: ViewManager.cpp:619
 #, fuzzy, kde-format
 #| msgid "&Number of lines: "
 msgid "Line numbers "
 msgstr "&Nombor dari baris "
 
-#: ViewManager.cpp:1239
+#: ViewManager.cpp:1283
 #, fuzzy, kde-format
 #| msgid "&Move Session Left"
 msgctxt "@title:window"
 msgid "Save Tab Layout"
 msgstr "Pinda&h Sesi Kiri"
 
-#: ViewManager.cpp:1241 ViewManager.cpp:1362
+#: ViewManager.cpp:1285 ViewManager.cpp:1406
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Konsole View Layout (*.json)"
 msgstr ""
 
-#: ViewManager.cpp:1257
+#: ViewManager.cpp:1301
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -3993,7 +3993,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ViewManager.cpp:1349
+#: ViewManager.cpp:1393
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -4001,13 +4001,13 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ViewManager.cpp:1360
+#: ViewManager.cpp:1404
 #, kde-format
 msgctxt "@title:window"
 msgid "Load Tab Layout"
 msgstr ""
 
-#: Vt102Emulation.cpp:3305
+#: Vt102Emulation.cpp:3336
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
@@ -4091,54 +4091,68 @@ msgstr ""
 msgid "Flow control"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableKittyKeyboardButton)
+#: widgets/EditProfileAdvancedPage.ui:212
+#, kde-format
+msgid ""
+"Allow terminal programs to use the Kitty keyboard protocol for enhanced "
+"keyboard input"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableKittyKeyboardButton)
+#: widgets/EditProfileAdvancedPage.ui:215
+#, kde-format
+msgid "Kitty keyboard protocol"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: widgets/EditProfileAdvancedPage.ui:222
+#: widgets/EditProfileAdvancedPage.ui:238
 #, fuzzy, kde-format
 #| msgid "&Encoding"
 msgid "&Default character encoding:"
 msgstr "P&enenkodan"
 
 #. i18n: ectx: property (text), widget (QLabel, peekPrimaryLabel)
-#: widgets/EditProfileAdvancedPage.ui:242
+#: widgets/EditProfileAdvancedPage.ui:258
 #, kde-format
 msgid "Shortcut for peeking the primary screen:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, autoSaveIntervalLabel)
-#: widgets/EditProfileAdvancedPage.ui:255
+#: widgets/EditProfileAdvancedPage.ui:271
 #, kde-format
 msgid "Set interval between autosaves:"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, autoSaveIntervalWidget)
-#: widgets/EditProfileAdvancedPage.ui:262
+#: widgets/EditProfileAdvancedPage.ui:278
 #, kde-format
 msgid " ms"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_linenums)
-#: widgets/EditProfileAdvancedPage.ui:275
+#: widgets/EditProfileAdvancedPage.ui:291
 #, fuzzy, kde-format
 #| msgid "&Number of lines: "
 msgid "Line Numbers:"
 msgstr "&Nombor dari baris "
 
 #. i18n: ectx: property (text), widget (QRadioButton, lineNumsNever)
-#: widgets/EditProfileAdvancedPage.ui:285
+#: widgets/EditProfileAdvancedPage.ui:301
 #, kde-format
 msgctxt "Never"
 msgid "&Never"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, lineNumsURL)
-#: widgets/EditProfileAdvancedPage.ui:295
+#: widgets/EditProfileAdvancedPage.ui:311
 #, kde-format
 msgctxt "When showing URL hints"
 msgid "When &URL hints show"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, lineNumsAlways)
-#: widgets/EditProfileAdvancedPage.ui:305
+#: widgets/EditProfileAdvancedPage.ui:321
 #, kde-format
 msgctxt "Always"
 msgid "A&lways"
@@ -6125,47 +6139,58 @@ msgctxt "@info:tooltip"
 msgid "Restore terminal"
 msgstr "Ulangtetap && Kosongkan Terminal"
 
-#: widgets/ViewContainer.cpp:60
+#: widgets/ViewContainer.cpp:86
 #, fuzzy, kde-format
 #| msgid "&Detach Session"
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "&Leraikan Sesi"
 
-#: widgets/ViewContainer.cpp:65
+#: widgets/ViewContainer.cpp:91
 #, fuzzy, kde-format
 #| msgid "&Detach Session"
 msgctxt "@info:tooltip"
 msgid "Search Tabs"
 msgstr "&Leraikan Sesi"
 
-#: widgets/ViewContainer.cpp:70
+#: widgets/ViewContainer.cpp:96
 #, fuzzy, kde-format
 #| msgid "Close the current session"
 msgctxt "@info:tooltip"
 msgid "Close this tab"
 msgstr "Tutup sesi semasa"
 
-#: widgets/ViewContainer.cpp:106
+#: widgets/ViewContainer.cpp:132
 #, fuzzy, kde-format
 #| msgid "&Detach Session"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "&Leraikan Sesi"
 
-#: widgets/ViewContainer.cpp:112
+#: widgets/ViewContainer.cpp:138
 #, fuzzy, kde-format
 #| msgid "&Terminate Task"
 msgctxt "@action:inmenu"
 msgid "&Configure or Rename Tab..."
 msgstr "&Tamatkan Tugas"
 
-#: widgets/ViewContainer.cpp:117
+#: widgets/ViewContainer.cpp:143
 #, fuzzy, kde-format
 #| msgid "Close the current session"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Tutup sesi semasa"
+
+#: widgets/ViewContainer.cpp:968 widgets/ViewContainer.cpp:977
+#, fuzzy, kde-format
+#| msgid "Maintainer"
+msgid "Container"
+msgstr "Penyenggara"
+
+#: widgets/ViewContainer.cpp:987
+#, kde-format
+msgid "%1: %2"
+msgstr ""
 
 #, fuzzy
 #~| msgid "C&lose Session"
@@ -6461,9 +6486,6 @@ msgstr "Tutup sesi semasa"
 #~| msgid "Save Sessions &Profile..."
 #~ msgid "Change Profile"
 #~ msgstr "Sim&pan &Profil Sesi"
-
-#~ msgid "Maintainer"
-#~ msgstr "Penyenggara"
 
 #~ msgid "Author"
 #~ msgstr "Pengarang"
