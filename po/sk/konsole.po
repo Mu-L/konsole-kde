@@ -3953,12 +3953,14 @@ msgid ""
 "Allow terminal programs to use the Kitty keyboard protocol for enhanced "
 "keyboard input"
 msgstr ""
+"Povoliť terminálovým programom použiť protokol klávesnice Kitty pre "
+"rozšírený vstup z klávesnice"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableKittyKeyboardButton)
 #: widgets/EditProfileAdvancedPage.ui:215
 #, kde-format
 msgid "Kitty keyboard protocol"
-msgstr ""
+msgstr "Protokol klávesnice Kitty"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: widgets/EditProfileAdvancedPage.ui:238
@@ -6029,16 +6031,14 @@ msgid "Close Tab"
 msgstr "&Zavrieť kartu"
 
 #: widgets/ViewContainer.cpp:968 widgets/ViewContainer.cpp:977
-#, fuzzy, kde-format
-#| msgctxt "@action Shortcut entry"
-#| msgid "Next View Container"
+#, kde-format
 msgid "Container"
-msgstr "Ďalší kontajner pohľadu"
+msgstr "Kontajner"
 
 #: widgets/ViewContainer.cpp:987
 #, kde-format
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #~ msgid ""
 #~ "The D-Bus methods sendText/runCommand were just used.  There are security "

@@ -3911,13 +3911,13 @@ msgstr "流控制"
 msgid ""
 "Allow terminal programs to use the Kitty keyboard protocol for enhanced "
 "keyboard input"
-msgstr ""
+msgstr "允许终端程序使用 Kitty 键盘协议以增强键盘输入功能"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableKittyKeyboardButton)
 #: widgets/EditProfileAdvancedPage.ui:215
 #, kde-format
 msgid "Kitty keyboard protocol"
-msgstr ""
+msgstr "Kitty 键盘协议"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: widgets/EditProfileAdvancedPage.ui:238
@@ -5931,9 +5931,9 @@ msgstr "关闭标签页"
 #: widgets/ViewContainer.cpp:968 widgets/ViewContainer.cpp:977
 #, kde-format
 msgid "Container"
-msgstr ""
+msgstr "容器"
 
 #: widgets/ViewContainer.cpp:987
 #, kde-format
 msgid "%1: %2"
-msgstr ""
+msgstr "%1：%2"
