@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-13 00:49+0000\n"
-"PO-Revision-Date: 2026-05-02 07:31+0200\n"
+"PO-Revision-Date: 2026-05-13 12:44+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -4001,12 +4001,14 @@ msgid ""
 "Allow terminal programs to use the Kitty keyboard protocol for enhanced "
 "keyboard input"
 msgstr ""
+"Consenti ai programmi terminale di utilizzare il protocollo di tastiera "
+"Kitty per un inserimento da tastiera migliorato."
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableKittyKeyboardButton)
 #: widgets/EditProfileAdvancedPage.ui:215
 #, kde-format
 msgid "Kitty keyboard protocol"
-msgstr ""
+msgstr "Protocollo di tastiera Kitty"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: widgets/EditProfileAdvancedPage.ui:238
@@ -6104,15 +6106,14 @@ msgid "Close Tab"
 msgstr "Chiudi scheda"
 
 #: widgets/ViewContainer.cpp:968 widgets/ViewContainer.cpp:977
-#, fuzzy, kde-format
-#| msgid "Maintainer"
+#, kde-format
 msgid "Container"
-msgstr "Responsabile"
+msgstr "Contenitore"
 
 #: widgets/ViewContainer.cpp:987
 #, kde-format
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #~ msgid "Distrobox: %1"
 #~ msgstr "Distrobox: %1"
